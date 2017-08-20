@@ -25,10 +25,5 @@
     "psr-4": {
       "PhalApi\\Redis\\": "src/"
     }
-  },
-  "extra": {
-    "branch-alias": {
-      "dev-master": "1.0.1"
-    }
   }
 }
