@@ -11,8 +11,9 @@ Redis在PHP开发中运用场景已经无处不在,小到简单缓存大到数�
 
 官网地址:[http://www.phalapi.net/](http://www.phalapi.net/ "PhalApi官网")
 
-项目Git地址:[https://github.com/wenzhenxi/phalapi2-redis](https://github.com/wenzhenxi/phalapi2-redis "项目Git地址")
+项目GitHub地址:[https://github.com/wenzhenxi/phalapi2-redis](https://github.com/wenzhenxi/phalapi2-redis "项目Git地址")
 
+项目码云地址  : [https://gitee.com/wenzhenxi/phalapi2-redis](https://gitee.com/wenzhenxi/phalapi2-redis "项目码云地址")
 
 ## 安装配置Redis
 
