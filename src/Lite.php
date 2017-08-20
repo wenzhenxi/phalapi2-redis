@@ -12,7 +12,7 @@ use \PhalApi\Cache\RedisCache;
  *       return new \PhalApi\Redis\Lite(\PhalApi\DI()->config->get("app.redis.servers"));
  *  };
  *
- * 例子
+ * 例子:
  * // 存入永久的键值队
  * \PhalApi\DI()->redis->set_forever(键名,值,库名);
  * // 获取永久的键值队
