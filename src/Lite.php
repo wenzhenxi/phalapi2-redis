@@ -267,8 +267,12 @@ class Lite extends RedisCache {
      */
     protected function get_lTrim($key, $start, $end){
         $rs = $this->redis->lTrim($this->formatKey($key), $start, $end);
-        foreach($rs as $k => $v){
-            $rs[$k] = $this->unformatValue($v);
+        if(is_array($rs)){
+            foreach($rs as $k => $v){
+                $rs[$k] = $this->unformatValue($v);
+            }
+        }else{
+            $rs = $this->unformatValue($rs);
         }
         return $rs;
     }
